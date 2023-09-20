@@ -1,4 +1,4 @@
-import homeImg from './home-image.jpg';
+import homepic from './home-image.jpg';
 
 function loadHome() {
     const homeContainer = document.createElement('div');
@@ -10,7 +10,7 @@ function loadHome() {
 
     const homeImg = document.createElement('img');
     homeImg.setAttribute('id', 'home-image');
-    homeImg.setAttribute('src', homeImg);
+    homeImg.setAttribute('src', homepic);
     homeImg.setAttribute('alt', 'smoking steak meal');
     homeContainer.appendChild(homeImg);
 
