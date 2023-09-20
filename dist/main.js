@@ -146,7 +146,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n\n\n\n\n\nconsole.log('test');\nconst home = document.querySelector('.home-container');\nif (home === null) {\n    (0,_home__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n}\n\nconst menuBtn = document.querySelector('#menu');\nmenuBtn.addEventListener('click', () => {\n\n    const home = document.querySelector('.home-container');\n    const contact = document.querySelector('.contact-container');\n    console.log(home);\n    if (home !== null) {\n        console.log('home removed');\n        const homeBtn = document.getElementById('home');\n        homeBtn.style.borderBottom = 'none';\n        home.remove();\n    } else if (contact !== null) {\n        console.log('contact removed');\n        const contactBtn = document.getElementById('contact');\n        contactBtn.style.borderBottom = 'none';\n        contact.remove();\n    }\n\n    const menuBtn = document.getElementById('menu');\n    menuBtn.style.borderBottom = '2px solid white';\n\n    const content = document.getElementById('content');\n    content.appendChild(_menu__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n});\n\nconst contactBtn = document.querySelector('#contact');\ncontactBtn.addEventListener('click', () => {\n    const home = document.querySelector('.home-container');\n    const menu = document.querySelector('.menu-container');\n    if (home !== null) {\n        console.log('home removed');\n        const homeBtn = document.getElementById('home');\n        homeBtn.style.borderBottom = 'none';\n        home.remove();\n    } else if (menu !== null) {\n        console.log('menu removed');\n        const menuBtn = document.getElementById('menu');\n        menuBtn.style.borderBottom = 'none';\n        menu.remove();\n    }\n\n    const contactBtn = document.getElementById('contact');\n    contactBtn.style.borderBottom = '2px solid white';\n\n    const content = document.getElementById('content');\n    content.appendChild(_contact__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n});\n\nconst homeBtn = document.querySelector('#home');\nhomeBtn.addEventListener('click', () => {\n    const home = document.querySelector('.home-container');\n    if (home !== null) {\n        console.log('home removed');\n        home.remove();\n    }\n\n    const menu = document.querySelector('.menu-container');\n    const contact = document.querySelector('.contact-container');\n\n    if (menu !== null) {\n        console.log('menu removed');\n        const menuBtn = document.getElementById('menu');\n        menuBtn.style.borderBottom = 'none';\n        menu.remove();\n    }\n    else if (contact !== null) {\n        console.log('contact removed');\n        const contactBtn = document.getElementById('contact');\n        contactBtn.style.borderBottom = 'none';\n        contact.remove();\n    }\n\n    (0,_home__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n});\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _home_image_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./home-image.jpg */ \"./src/home-image.jpg\");\n\n\n\n\n\n\nconsole.log('test');\nconst home = document.querySelector('.home-container');\nif (home === null) {\n    (0,_home__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n}\n\nconst menuBtn = document.querySelector('#menu');\nmenuBtn.addEventListener('click', () => {\n\n    const home = document.querySelector('.home-container');\n    const contact = document.querySelector('.contact-container');\n    console.log(home);\n    if (home !== null) {\n        console.log('home removed');\n        const homeBtn = document.getElementById('home');\n        homeBtn.style.borderBottom = 'none';\n        home.remove();\n    } else if (contact !== null) {\n        console.log('contact removed');\n        const contactBtn = document.getElementById('contact');\n        contactBtn.style.borderBottom = 'none';\n        contact.remove();\n    }\n\n    const menuBtn = document.getElementById('menu');\n    menuBtn.style.borderBottom = '2px solid white';\n\n    const content = document.getElementById('content');\n    content.appendChild(_menu__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n});\n\nconst contactBtn = document.querySelector('#contact');\ncontactBtn.addEventListener('click', () => {\n    const home = document.querySelector('.home-container');\n    const menu = document.querySelector('.menu-container');\n    if (home !== null) {\n        console.log('home removed');\n        const homeBtn = document.getElementById('home');\n        homeBtn.style.borderBottom = 'none';\n        home.remove();\n    } else if (menu !== null) {\n        console.log('menu removed');\n        const menuBtn = document.getElementById('menu');\n        menuBtn.style.borderBottom = 'none';\n        menu.remove();\n    }\n\n    const contactBtn = document.getElementById('contact');\n    contactBtn.style.borderBottom = '2px solid white';\n\n    const content = document.getElementById('content');\n    content.appendChild(_contact__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n});\n\nconst homeBtn = document.querySelector('#home');\nhomeBtn.addEventListener('click', () => {\n    const home = document.querySelector('.home-container');\n    if (home !== null) {\n        console.log('home removed');\n        home.remove();\n    }\n\n    const menu = document.querySelector('.menu-container');\n    const contact = document.querySelector('.contact-container');\n\n    if (menu !== null) {\n        console.log('menu removed');\n        const menuBtn = document.getElementById('menu');\n        menuBtn.style.borderBottom = 'none';\n        menu.remove();\n    }\n    else if (contact !== null) {\n        console.log('contact removed');\n        const contactBtn = document.getElementById('contact');\n        contactBtn.style.borderBottom = 'none';\n        contact.remove();\n    }\n\n    (0,_home__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n});\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -156,7 +156,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hom
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst menuSection = (idName) => {\n    const divEle = document.createElement('div');\n    divEle.setAttribute('id', idName);\n    divEle.classList.add('menu-section');\n    return divEle;\n};\n\nconst createCategoryHeading = (category) => {\n    const categoryHead = document.createElement('p');\n    categoryHead.classList.add('menu-category');\n    categoryHead.textContent = category;\n    return categoryHead;\n};\n\nconst foodItem = (pic, altName, foodDes) => {\n    const foodContainer = document.createElement('div');\n    foodContainer.setAttribute('class', 'food-container');\n\n    const foodPic = document.createElement('img');\n    foodPic.classList.add('food-img');\n    foodPic.setAttribute('src', pic);\n    foodPic.setAttribute('alt', altName);\n\n    const foodDesEle = document.createElement('p');\n    foodDesEle.setAttribute('class', 'food-des');\n    foodDesEle.textContent = foodDes;\n\n    foodContainer.appendChild(foodPic);\n    foodContainer.appendChild(foodDesEle);\n\n    return foodContainer;\n};\n\n\nconst menuContainer = document.createElement('div');\nmenuContainer.setAttribute('class', 'menu-container');\n\nconst appetizerHead = createCategoryHeading('Appetizers');\nmenuContainer.appendChild(appetizerHead);\n\nconst appetizers = menuSection('appetizers');\nmenuContainer.appendChild(appetizers);\n\nconst appetizer_1 = foodItem('../src/app-1.jpg', 'Fried calamari with marinara sauce', 'Fried calamari with marinara sauce ($12)');\nconst appetizer_2 = foodItem('../src/app-2.jpeg', 'Quesadilla with grilled chicken or steak, cheese, and guacamole', 'Quesadilla with grilled chicken or steak, cheese, and guacamole ($10)');\nconst appetizer_3 = foodItem('../src/app-3.jpg', 'French onion soup with grilled cheese croutons', 'French onion soup with grilled cheese croutons ($11)');\nconst appetizer_4 = foodItem('../src/app-4.jpg', 'Classic Caesar salad', 'Classic Caesar salad with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing ($12)');\n\nappetizers.appendChild(appetizer_1);\nappetizers.appendChild(appetizer_2);\nappetizers.appendChild(appetizer_3);\nappetizers.appendChild(appetizer_4);\n\nconst mainCourseHead = createCategoryHeading('Main Courses');\nmenuContainer.appendChild(mainCourseHead);\n\nconst mains = menuSection('main-course');\nmenuContainer.appendChild(mains);\n\nconst mainCourse_1 = foodItem('../src/main-1.jpg', 'New York strip steak', 'New York strip steak with mashed potatoes and grilled vegetables ($28)');\nconst mainCourse_2 = foodItem('../src/main-2.jpeg', 'Grilled salmon', 'Grilled salmon with roasted asparagus and risotto ($26)');\nconst mainCourse_3 = foodItem('../src/main-3.jpg', 'Chicken parmesan', 'Chicken parmesan with spaghetti and marinara sauce ($22)');\nconst mainCourse_4 = foodItem('../src/main-4.jpg', 'Meatloaf with mashed potatoes', 'Meatloaf with mashed potatoes and green beans ($18)');\n\nmains.appendChild(mainCourse_1);\nmains.appendChild(mainCourse_2);\nmains.appendChild(mainCourse_3);\nmains.appendChild(mainCourse_4);\n\nconst sideDishHead = createCategoryHeading('Side Dishes');\nmenuContainer.appendChild(sideDishHead);\n\nconst sides = menuSection('side-dishes');\nmenuContainer.appendChild(sides);\n\nconst sideDish_1 = foodItem('../src/side-1.jpg', 'Mashed potatoes ', 'Mashed potatoes ($5)');\nconst sideDish_2 = foodItem('../src/side-2.jpg', 'French fries', 'French fries ($4)');\nconst sideDish_3 = foodItem('../src/side-3.jpg', 'Coleslaw', 'Coleslaw ($3)');\nconst sideDish_4 = foodItem('../src/side-4.jpg', 'Steamed vegetables', 'Steamed vegetables ($4)');\n\nsides.appendChild(sideDish_1);\nsides.appendChild(sideDish_2);\nsides.appendChild(sideDish_3);\nsides.appendChild(sideDish_4);\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuContainer);\n\n\n\n\n//# sourceURL=webpack:///./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _app_1_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app-1.jpg */ \"./src/app-1.jpg\");\n/* harmony import */ var _app_2_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app-2.jpeg */ \"./src/app-2.jpeg\");\n/* harmony import */ var _app_3_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app-3.jpg */ \"./src/app-3.jpg\");\n/* harmony import */ var _app_4_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-4.jpg */ \"./src/app-4.jpg\");\n/* harmony import */ var _main_1_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./main-1.jpg */ \"./src/main-1.jpg\");\n/* harmony import */ var _main_2_jpeg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./main-2.jpeg */ \"./src/main-2.jpeg\");\n/* harmony import */ var _main_3_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./main-3.jpg */ \"./src/main-3.jpg\");\n/* harmony import */ var _main_4_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./main-4.jpg */ \"./src/main-4.jpg\");\n/* harmony import */ var _side_1_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./side-1.jpg */ \"./src/side-1.jpg\");\n/* harmony import */ var _side_2_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./side-2.jpg */ \"./src/side-2.jpg\");\n/* harmony import */ var _side_3_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./side-3.jpg */ \"./src/side-3.jpg\");\n/* harmony import */ var _side_4_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./side-4.jpg */ \"./src/side-4.jpg\");\n\n\n\n\n\n\n\n\n\n\n\n\n\nconst menuSection = (idName) => {\n    const divEle = document.createElement('div');\n    divEle.setAttribute('id', idName);\n    divEle.classList.add('menu-section');\n    return divEle;\n};\n\nconst createCategoryHeading = (category) => {\n    const categoryHead = document.createElement('p');\n    categoryHead.classList.add('menu-category');\n    categoryHead.textContent = category;\n    return categoryHead;\n};\n\nconst foodItem = (pic, altName, foodDes) => {\n    const foodContainer = document.createElement('div');\n    foodContainer.setAttribute('class', 'food-container');\n\n    const foodPic = document.createElement('img');\n    foodPic.classList.add('food-img');\n    foodPic.setAttribute('src', pic);\n    foodPic.setAttribute('alt', altName);\n\n    const foodDesEle = document.createElement('p');\n    foodDesEle.setAttribute('class', 'food-des');\n    foodDesEle.textContent = foodDes;\n\n    foodContainer.appendChild(foodPic);\n    foodContainer.appendChild(foodDesEle);\n\n    return foodContainer;\n};\n\n\nconst menuContainer = document.createElement('div');\nmenuContainer.setAttribute('class', 'menu-container');\n\nconst appetizerHead = createCategoryHeading('Appetizers');\nmenuContainer.appendChild(appetizerHead);\n\nconst appetizers = menuSection('appetizers');\nmenuContainer.appendChild(appetizers);\n\nconst appetizer_1 = foodItem(_app_1_jpg__WEBPACK_IMPORTED_MODULE_0__, 'Fried calamari with marinara sauce', 'Fried calamari with marinara sauce ($12)');\nconst appetizer_2 = foodItem(_app_2_jpeg__WEBPACK_IMPORTED_MODULE_1__, 'Quesadilla with grilled chicken or steak, cheese, and guacamole', 'Quesadilla with grilled chicken or steak, cheese, and guacamole ($10)');\nconst appetizer_3 = foodItem(_app_3_jpg__WEBPACK_IMPORTED_MODULE_2__, 'French onion soup with grilled cheese croutons', 'French onion soup with grilled cheese croutons ($11)');\nconst appetizer_4 = foodItem(_app_4_jpg__WEBPACK_IMPORTED_MODULE_3__, 'Classic Caesar salad', 'Classic Caesar salad with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing ($12)');\n\nappetizers.appendChild(appetizer_1);\nappetizers.appendChild(appetizer_2);\nappetizers.appendChild(appetizer_3);\nappetizers.appendChild(appetizer_4);\n\nconst mainCourseHead = createCategoryHeading('Main Courses');\nmenuContainer.appendChild(mainCourseHead);\n\nconst mains = menuSection('main-course');\nmenuContainer.appendChild(mains);\n\nconst mainCourse_1 = foodItem(_main_1_jpg__WEBPACK_IMPORTED_MODULE_4__, 'New York strip steak', 'New York strip steak with mashed potatoes and grilled vegetables ($28)');\nconst mainCourse_2 = foodItem(_main_2_jpeg__WEBPACK_IMPORTED_MODULE_5__, 'Grilled salmon', 'Grilled salmon with roasted asparagus and risotto ($26)');\nconst mainCourse_3 = foodItem(_main_3_jpg__WEBPACK_IMPORTED_MODULE_6__, 'Chicken parmesan', 'Chicken parmesan with spaghetti and marinara sauce ($22)');\nconst mainCourse_4 = foodItem(_main_4_jpg__WEBPACK_IMPORTED_MODULE_7__, 'Meatloaf with mashed potatoes', 'Meatloaf with mashed potatoes and green beans ($18)');\n\nmains.appendChild(mainCourse_1);\nmains.appendChild(mainCourse_2);\nmains.appendChild(mainCourse_3);\nmains.appendChild(mainCourse_4);\n\nconst sideDishHead = createCategoryHeading('Side Dishes');\nmenuContainer.appendChild(sideDishHead);\n\nconst sides = menuSection('side-dishes');\nmenuContainer.appendChild(sides);\n\nconst sideDish_1 = foodItem(_side_1_jpg__WEBPACK_IMPORTED_MODULE_8__, 'Mashed potatoes ', 'Mashed potatoes ($5)');\nconst sideDish_2 = foodItem(_side_2_jpg__WEBPACK_IMPORTED_MODULE_9__, 'French fries', 'French fries ($4)');\nconst sideDish_3 = foodItem(_side_3_jpg__WEBPACK_IMPORTED_MODULE_10__, 'Coleslaw', 'Coleslaw ($3)');\nconst sideDish_4 = foodItem(_side_4_jpg__WEBPACK_IMPORTED_MODULE_11__, 'Steamed vegetables', 'Steamed vegetables ($4)');\n\nsides.appendChild(sideDish_1);\nsides.appendChild(sideDish_2);\nsides.appendChild(sideDish_3);\nsides.appendChild(sideDish_4);\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuContainer);\n\n\n\n\n//# sourceURL=webpack:///./src/menu.js?");
 
 /***/ }),
 
@@ -167,6 +167,136 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"d215c944a70a1f2ba744.ttf\";\n\n//# sourceURL=webpack:///./src/Alegreya_Sans_SC/AlegreyaSansSC-Regular.ttf?");
+
+/***/ }),
+
+/***/ "./src/app-1.jpg":
+/*!***********************!*\
+  !*** ./src/app-1.jpg ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b60d1cd021779947ff1a.jpg\";\n\n//# sourceURL=webpack:///./src/app-1.jpg?");
+
+/***/ }),
+
+/***/ "./src/app-2.jpeg":
+/*!************************!*\
+  !*** ./src/app-2.jpeg ***!
+  \************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"4d3078f57cbf25953539.jpeg\";\n\n//# sourceURL=webpack:///./src/app-2.jpeg?");
+
+/***/ }),
+
+/***/ "./src/app-3.jpg":
+/*!***********************!*\
+  !*** ./src/app-3.jpg ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a4f62419dd9c73862a9c.jpg\";\n\n//# sourceURL=webpack:///./src/app-3.jpg?");
+
+/***/ }),
+
+/***/ "./src/app-4.jpg":
+/*!***********************!*\
+  !*** ./src/app-4.jpg ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"4606b4294926c30f7296.jpg\";\n\n//# sourceURL=webpack:///./src/app-4.jpg?");
+
+/***/ }),
+
+/***/ "./src/home-image.jpg":
+/*!****************************!*\
+  !*** ./src/home-image.jpg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a401de045aa0c512c308.jpg\";\n\n//# sourceURL=webpack:///./src/home-image.jpg?");
+
+/***/ }),
+
+/***/ "./src/main-1.jpg":
+/*!************************!*\
+  !*** ./src/main-1.jpg ***!
+  \************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"59af0bd30d675c93e939.jpg\";\n\n//# sourceURL=webpack:///./src/main-1.jpg?");
+
+/***/ }),
+
+/***/ "./src/main-2.jpeg":
+/*!*************************!*\
+  !*** ./src/main-2.jpeg ***!
+  \*************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"0ac5289768893a922f63.jpeg\";\n\n//# sourceURL=webpack:///./src/main-2.jpeg?");
+
+/***/ }),
+
+/***/ "./src/main-3.jpg":
+/*!************************!*\
+  !*** ./src/main-3.jpg ***!
+  \************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ebb449aa719e5e841585.jpg\";\n\n//# sourceURL=webpack:///./src/main-3.jpg?");
+
+/***/ }),
+
+/***/ "./src/main-4.jpg":
+/*!************************!*\
+  !*** ./src/main-4.jpg ***!
+  \************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c659b8393ac8f335a88b.jpg\";\n\n//# sourceURL=webpack:///./src/main-4.jpg?");
+
+/***/ }),
+
+/***/ "./src/side-1.jpg":
+/*!************************!*\
+  !*** ./src/side-1.jpg ***!
+  \************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"08e64b68a7a0d9dd00b5.jpg\";\n\n//# sourceURL=webpack:///./src/side-1.jpg?");
+
+/***/ }),
+
+/***/ "./src/side-2.jpg":
+/*!************************!*\
+  !*** ./src/side-2.jpg ***!
+  \************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3c8ca60e9dc108aed5df.jpg\";\n\n//# sourceURL=webpack:///./src/side-2.jpg?");
+
+/***/ }),
+
+/***/ "./src/side-3.jpg":
+/*!************************!*\
+  !*** ./src/side-3.jpg ***!
+  \************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"7d496006a9c899a1994d.jpg\";\n\n//# sourceURL=webpack:///./src/side-3.jpg?");
+
+/***/ }),
+
+/***/ "./src/side-4.jpg":
+/*!************************!*\
+  !*** ./src/side-4.jpg ***!
+  \************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"1bb68cea1d84eb55c5a7.jpg\";\n\n//# sourceURL=webpack:///./src/side-4.jpg?");
 
 /***/ }),
 

@@ -2,6 +2,7 @@ import loadHome from "./home";
 import menuContainer from "./menu";
 import contactContainer from "./contact";
 import './styles.css';
+import './home-image.jpg'
 
 console.log('test');
 const home = document.querySelector('.home-container');
